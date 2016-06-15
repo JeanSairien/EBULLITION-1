@@ -1,0 +1,63 @@
+
+
+nav.topnav{
+		margin-left: 136px;
+		width: 1080px;
+		background-color:purple;
+
+}
+
+a.navbar-brand{
+	margin-bottom: 35px;
+
+}
+
+div.container{
+	display: flex;
+	justify-content: center;
+	background-color: orange;
+	height: 550px;
+	width: 1080px;
+
+}
+
+div.well{
+		display:flex;
+		justify-content: center;
+		height:355px;
+		width:890px ;
+		background-color: whitesmoke;
+		margin-top: 50px ;
+
+}
+
+div.well img{
+	height: ;
+	width: ;
+
+	margin-top: 15px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 450px;
+  }
+
+section.container {
+		display: flex;
+		justify-content: center;
+		height:750px;
+		width:1080px;
+
+		background-color: red;
+		margin-top: 15px;
+
+
+}
+
+
+
+
+@media screen and (max-width: 1280px)
+
