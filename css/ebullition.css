@@ -12,6 +12,35 @@ a.navbar-brand{
 
 }
 
+
+ul.nav {
+	display: flex;
+	flex-direction: left;
+	margin-top:15px;
+	margin-left: 100px;
+	padding-left: 15px;
+
+}
+
+div.dropdown{
+	margin-left: 25px;
+}
+
+ul ul {
+		display: none;
+		position: absolute; 
+		left: 140px; 
+		top: 0px; 
+		margin: 0px; 
+		padding: 0px;
+	}
+
+
+li {list-style-type: none; position: relative; width: 140px; background-color: #E0E0E0}
+li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
+
+
+
 div.container{
 	display: flex;
 	justify-content: center;
@@ -67,5 +96,14 @@ div.col-md-3 img{
 }
 
 
-@media screen and (max-width: 1280px)
+/*@media screen and (max-width: 1280px)*/
+
+}
+
+
+footer{
+	display: flex;
+	justify-content: center;	
+
+}
 
