@@ -1,14 +1,15 @@
 
 
 nav.topnav{
-		margin-left: 136px;
-		width: 1080px;
-		background-color:purple;
+		width: 100%;
+		background-image:url("../img/deco.jpg");
+		background-color: purple;
 
 }
 
 a.navbar-brand{
 	margin-bottom: 35px;
+		
 
 }
 
@@ -17,9 +18,8 @@ ul.nav {
 	display: flex;
 	flex-direction: left;
 	margin-top:15px;
-	margin-left: 100px;
+	margin-left: 250px;
 	padding-left: 15px;
-
 }
 
 div.dropdown{
@@ -46,25 +46,32 @@ div.container{
 	justify-content: center;
 	background-color: orange;
 	height: 550px;
-	width: 1080px;
+	width: 100%;
 
 }
 
-div.well{
+div.img-thumbnail{
 		display:flex;
 		justify-content: center;
-		height:290px;
-		width:445px ;
+		height:700px;
+		width:800px ;
 		background-color: whitesmoke;
-		margin-top: 150px ;
-
+		
 }
+
+	article.container{
+		display:flex;
+		justify-content: center;
+		width:1080px;
+		height:450px;
+	}
 
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 100%;
+      width: 1080px;
       height: 450px;
+
   }
 
 section.container {
