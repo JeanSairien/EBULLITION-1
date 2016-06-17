@@ -53,10 +53,10 @@ div.container{
 div.well{
 		display:flex;
 		justify-content: center;
-		height:470px;
-		width:890px ;
+		height:290px;
+		width:445px ;
 		background-color: whitesmoke;
-		margin-top: 50px ;
+		margin-top: 150px ;
 
 }
 
