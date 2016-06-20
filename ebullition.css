@@ -1,0 +1,112 @@
+
+
+nav.topnav{
+		margin-left: 136px;
+		width: 1080px;
+		background-color:purple;
+
+}
+
+a.navbar-brand{
+	margin-bottom: 35px;
+
+}
+
+div.container{
+	display: flex;
+	justify-content: center;
+	background-color: orange;
+	height: 550px;
+	width: 1080px;
+
+}
+
+div.well{
+		display:flex;
+		justify-content: center;
+		height:470px;
+		width:890px ;
+		background-color: whitesmoke;
+		margin-top: 50px ;
+
+}
+
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height: 450px;
+  }
+
+section.container {
+		display: flex;
+		justify-content: center;
+		height:750px;
+		width:1080px;
+		background-image: none;
+		background-color: olive;
+		margin-top: 15px;
+
+
+}
+
+	
+}
+
+div.col-md-3{
+		margin-left: 150px;
+		height: 450px;
+		width: 650px;
+
+}
+div.col-md-3 img{
+	height:150px ;
+	width:150px ;
+	margin-top: 175px;
+
+}
+
+
+@media screen and (max-width: 1280px)contact { /* la partie pour contacter*/
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.container1{
+	
+	margin-left: 104px;
+	justify-content: center;
+	background-color:#F5F5DC;
+	height: 200px;
+	width: 1080px;
+}
+
+.contact h4 {
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 50px;
+    padding-bottom: 5px;
+    color: #730800;
+
+}
+.socialnet {
+	
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #730800;
+
+}
+
+
+.I_cont{
+	margin-left: 100px;
+	margin-top:20px;
+	color: #730800;
+}
+.entoure{
+	border-radius: 5px;
+}
+.decalage{
+	margin-left: 800px;
+	border-radius: 5px;
+	color: #730800;
+}
