@@ -1,0 +1,40 @@
+
+.container1{
+	
+	margin-left: 104px;
+	justify-content: center;
+	background-color:#F5F5DC;
+	height: 200px;
+	width: 1080px;
+}
+
+.contact h4 {
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 50px;
+    padding-bottom: 5px;
+    color: #730800;
+
+}
+.socialnet {
+	
+	margin-left: 100px;
+	margin-top: 50px;
+	color: #730800;
+
+}
+
+
+.I_cont{
+	margin-left: 100px;
+	margin-top:20px;
+	color: #730800;
+}
+.entoure{
+	border-radius: 5px;
+}
+.decalage{
+	margin-left: 800px;
+	border-radius: 5px;
+	color: #730800;
+}

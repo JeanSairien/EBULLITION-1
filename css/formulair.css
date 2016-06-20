@@ -1,0 +1,97 @@
+ body{
+ 	margin: 0 auto;
+ 	background-color: GoldenRod;
+ }
+
+div.container{
+	margin-top: 100px;
+	margin-left: 200px;
+	height: 250px;
+	width: 890px;
+	text-align: center;
+	background-color: Gold;
+	display: block;
+	padding: 1px 1px 1px 1px;
+	border: 10px inset;
+	border-color: red;
+}
+div.main1{
+	margin-top:15px;
+	
+	
+}
+
+
+     
+
+
+div.nom{
+	float:left;
+	margin-left: 150px;
+}
+
+div.prenom{
+	margin: 0 auto;
+
+}
+
+div.main2{
+	float: left;
+	margin-top: 15px;
+	display: inline-block;
+	margin-left: 100px;
+}
+
+div.email{
+
+	float: left;
+	margin-top: 50px;
+	margin-left: 44px;
+	margin-bottom: 10px;
+}
+
+
+
+div.message{
+	
+	margin-top: 50px;
+
+}
+
+div.message label{
+
+	margin-top: 50px;
+}
+
+div.menu{
+
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+div.menu select, optgroup{
+
+	margin-left: 15px;
+}
+
+
+div.buttons{
+	height: 25px;
+	width: 50px;
+	margin: 0 auto;
+}
+
+.button1{
+
+	font-family: "VT323";
+	font-size: 25px;
+	color: #FC0000;
+	margin-bottom: 94px;
+	margin-right: 317px;
+	box-shadow: -2px 1px 1px 11px;
+	border-radius: 100px;
+	padding: 0px 20px 5px 15px;
+	background-color: white;
+	margin-left: 221px;
+	margin-top: -150px;
+}
