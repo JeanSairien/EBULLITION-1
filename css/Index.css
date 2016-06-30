@@ -1,0 +1,312 @@
+/*orange: #FF9619;
+violet: #B20061;*/
+
+html {
+	background-color: ;
+
+}
+
+body {
+	width: 1280px;
+	background-image:url("../img/deco.jpg"); ;
+	background-size: 100px 100px;
+	background-repeat: repeat;
+	position: center;
+	margin: 0 auto;
+
+}
+
+.principale {
+	background-color:  #f5f5f5;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	border: #B20061 5px solid;
+	border-style: ridge;
+	font-family: "Open Sans";
+}
+
+.color {
+	background-color:#B20061;
+}
+
+.menu, .menu ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+	
+}
+
+.menu li{
+	display:inline-block;
+	position:relative;
+
+
+}
+
+.menu ul li{
+	display:inherit;
+	border-radius:0;
+}
+
+.menu ul li:hover{
+	border-radius:0;
+}
+
+.menu ul{
+	position:absolute;
+	z-index: 1000;
+	max-height:0;
+	left: 0;
+	right: 0;
+	overflow:hidden;
+	-moz-transition: .0s all .0s;
+	-webkit-transition: .0s all .0s;
+	transition: .0s all .0s;
+
+}
+
+/* background des liens menus et sous menus au survol */
+.menu li:hover {
+	background-color: #FF9619;
+}
+
+/* les a href */
+.menu a{
+	text-decoration:none;
+	display:block;
+	padding:8px 32px;
+	color:black;
+	font-family: "Merriweather";
+	font-size: 17px;
+}
+.menu ul a{
+	padding:8px 0;
+}
+.menu li:hover li a{
+	color: black;
+	text-transform:inherit;
+	background-color: #FF9619;
+}
+.menu li:hover a, .menu li li:hover a{
+	color:#B20061;
+ 
+}
+
+.menu li:hover ul{
+	max-height:15em;
+}
+
+.desc {
+	width: 90%;
+	font-size: 20px;
+	margin: auto;
+	padding-bottom: 70px;
+}
+
+.desc h2 {
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+
+.desc img {
+	/*padding-bottom: 50px;*/
+	width: 650px;
+	height: 400px;
+	margin-left: 280px;
+	border-radius: 30px ;
+	margin-bottom: 10px;
+}
+
+.carousel {
+	width: 90%;
+	margin: auto;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+  }
+
+
+.img {
+	
+	max-height: 410px;
+	
+}
+
+.Collection h2 {
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 35px;
+	width: 70%;
+
+}
+
+.collec1, .collec2, .collec3 {
+	height: 300px;
+	width: 200px;
+	display: inline-block;
+	margin-top: 130px;
+	
+
+}
+
+.bar {
+	height : 50px;
+	margin-top: 125%;
+	background-color: #FF1996;  
+	filter:alpha(opacity=90);   
+	-moz-opacity:0.9;           
+	opacity: 0.9; 
+	text-align: center;
+	font-size: 15px;
+	font-family: Helvetica;              
+
+}
+
+.collec1 {
+	margin-left: 12%;
+	float: left;
+	background-image: url("Images/8planchebodyunie.png");
+	background-size: cover;
+	border-radius: 30px;
+}
+
+.rad  p {
+	padding-top: 7px;
+	border-radius: 30px;
+}
+
+.collec1 a {
+	color: white;
+}
+
+.collec1 a:hover {
+	color: #FF9619;
+}
+
+.collec2 {
+	margin-left: 14%;
+	background-image: url("Images/Tie&DyeGreen.jpg");
+	background-position: center center;
+	background-size: 100% 100%;
+	border-radius: 30px;
+}
+
+.rad  p {
+	padding-top: 7px;
+	border-radius: 30px;
+}
+
+
+.collec2 a {
+	color: white;
+}
+
+.collec2 a:hover {
+	color: #FF9619;
+}
+
+.collec3 {
+	float: right;
+	margin-right: 12%;
+	background-image: url("Images/Portefeuilles.JPG");
+	background-position: center center;
+	background-size: 100% 100%;
+	border-radius: 30px 30px ;
+}
+
+.rad  p {
+	padding-top: 7px;
+	border-radius: 30px;
+}
+
+
+.collec3 a {
+	color: white;
+}
+
+
+
+.collec3 a:hover {
+	color: #FF9619;
+}
+
+ .container1{
+    margin-top: 100px;
+    margin-left: 104px;
+    justify-content: center;
+    background-color:#FF00A4;
+    height: 200px;
+    width: 1080px;*/
+}
+
+footer {
+	
+	padding-bottom: 30px;
+	display: inline;
+}
+
+.contact h4{
+	padding-left: 60px;
+	font-size: 35px;
+}
+
+.contact a {
+	color: #FF9619;
+	text-decoration: none;
+}
+
+.contact p {
+	padding-left: 85px;
+	color: #FF9619;
+}
+
+.mail {
+	padding-right: 5px;
+	color: #FF9619;
+}
+
+.tel {
+	padding-right: 10px;
+}
+
+.fooIco {
+	padding-left: 60px!important;
+}
+
+.socialnet {
+	padding-left: 80px;
+	padding-top: 17px;
+}
+
+.socialnet i {
+	padding-right: 5px;
+	color: #FF9619;
+	padding-bottom: 20px;
+}
+
+.ment  {
+	padding-left: 60px;
+	color: #FF9619;
+	padding-top: 22px!important;
+	font-weight: bold;
+}
+
+
+.ment:hover {
+	color: #9B5400;
+}
+
+div.container-fluid{
+	background-color: #B20061;
+	background-size: cover;
+}
+
+footer i:hover {
+	color: #9B5400;
+}

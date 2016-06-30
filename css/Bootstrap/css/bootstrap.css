@@ -4277,7 +4277,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 100px;
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4287,7 +4287,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
-  float: left;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -4963,12 +4962,12 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: red;
+  color: inherit;
   background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: red;
+  color: inherit;
 }
 .jumbotron p {
   margin-bottom: 15px;
