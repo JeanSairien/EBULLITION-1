@@ -252,46 +252,54 @@ footer {
 }
 
 .contact h4{
+	margin-left: 80px;
 	padding-left: 60px;
 	font-size: 35px;
 }
 
 .contact a {
+	margin-left: 80px;
 	color: #FF9619;
 	text-decoration: none;
 }
 
 .contact p {
+	margin-left: 80px;
 	padding-left: 85px;
 	color: #FF9619;
 }
 
 .mail {
+	margin-left: 80px;
 	padding-right: 5px;
 	color: #FF9619;
 }
 
 .tel {
+	margin-left: 80px;
 	padding-right: 10px;
 }
 
 .fooIco {
+	margin-left: 100px;
 	padding-left: 60px!important;
 }
 
 .socialnet {
+	margin-left: 100px;
 	padding-left: 80px;
 	padding-top: 17px;
 }
 
 .socialnet i {
+	margin-left: 100px;
 	padding-right: 5px;
 	color: #FF9619;
 	padding-bottom: 20px;
 }
 
 .ment  {
-	padding-left: 60px;
+	padding-left: 200px;
 	color: #FF9619;
 	padding-top: 22px!important;
 	font-weight: bold;
@@ -299,6 +307,7 @@ footer {
 
 
 .ment:hover {
+	
 	color: #9B5400;
 }
 
