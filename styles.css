@@ -1,0 +1,607 @@
+ /*///////////FONT LOGO///////////
+////////////////////////////*/
+
+@font-face {
+font-family: 'BalineseFamily';
+src: url(fonts/BalineseFamily.ttf);
+}
+
+
+@font-face {
+font-family: 'OpenSans-Light';
+src: url(fonts/OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-LightItalic';
+src: url(fonts/OpenSans/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Italic';
+src: url(fonts/OpenSans/OpenSans-Italic.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Semibold';
+src: url(OpenSans/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url(fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+
+
+/*///////////BODY///////////
+////////////////////////////*/
+
+body {
+	padding: 0;
+	width: 100%;
+}
+
+.container-fuild {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+a:hover {
+	text-decoration-line : none;
+	}
+/*///////////NAVBAR////////////
+////////////////////////////*/
+
+.navbar {
+	background-image: url(images/bg-color.jpg);
+	background-size: cover;
+	border: 0;
+}
+
+.navbar-brand {
+	visibility : hidden;
+}
+
+.navbar-brand.logo {
+	padding: 10px 0 0 14px;
+}
+
+.logoH {
+	font-family: 'BalineseFamily';
+	color : #fff;
+	font-size: 48px;
+	line-height: 0;
+}
+
+#myNavbar {
+	background-image:url(images/bg-color.jpg);
+}
+
+.nav {
+	float:left;
+	font-family: 'OpenSans-Light';
+	height : 32px;
+}
+
+
+.navbar-collapse ul li .textPrincipal {
+
+	color: #ffffff;
+	margin-left:20px;
+	margin-right:8px;
+	font-size:16px;
+	line-height : 1.2;
+
+}
+
+.navbar-collapse ul li .textPrincipal:hover {
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	background-height :36px;
+}
+
+
+li:hover ul {
+	display : block;
+}
+
+.zoneDeco, .zoneAcc, .zoneVetm {
+	min-width : 320px;
+	min-height : 160px;
+	padding : 10px;
+	background-color : rgba(255,255,255,0.8) ;
+	background-repeat: no-repeat;
+	background-position: 180px center ;
+}
+
+
+
+.zoneVetm {
+	background-image: url(images/kimono.png);
+	background-position: 160px center ;
+}
+
+.zoneAcc {
+	background-image: url(images/colier.png);
+}
+
+.zoneDeco {
+	background-image: url(images/tapis.png);
+}
+
+
+.navbar-toggle {
+	border: none;
+}
+
+button:hover {
+	border: none;
+	background-color : black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+/*///////////HEADER////////////
+////////////////////////////*/
+
+.logoHeader h1{
+	color:rgb(156,48,154);
+	font-family: 'BalineseFamily';
+	line-height: 0;
+	font-size: 80px;
+	margin-top: 60px;
+}
+
+.logoHeader{
+  height: auto;
+  padding: 80px 0 10px 0;
+}
+
+.logoHeader img{
+width: 116px;
+height: 116px
+}
+
+.presentation{
+color: #63398B;
+font-family:'OpenSans-Light';
+margin-top:10px;
+font-size: 16px;
+
+}
+
+/*///////////CAROUSEL////////////
+////////////////////////////*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+
+ .titre3{
+  	float: left;
+  	margin-top: -10em; 
+  	font-size: 80px;
+  	font-family: 'OpenSans-Light';
+  	text-shadow: none;
+  	color:rgb(92,92,92);
+  	text-transform: uppercase;
+    font-size: 35px;
+
+  }
+
+  .h3gras{
+    color: rgb(99,99,99);
+    font-weight:bold;
+  }
+  .h3orange{
+    color: rgb(232,171,0);
+    font-weight: normal;
+
+
+  }
+
+  .h3violet{
+    color: rgb(219,117,156);
+    font-weight: normal;
+
+  }
+
+  .texteCarousel{
+  	float: left;
+  	margin-top: -15em;
+  	font-family: 'OpenSans-Light';
+  	text-shadow: none;
+  	color: black;
+  }
+  
+  .carousel-control.right, .carousel-control.left {
+  	background-image:none;
+  }
+
+.slide {
+	width: 100%;
+}
+
+
+  
+/*///////////LA MARQUE///////////
+////////////////////////////*/
+
+#marque{
+	text-align: center;
+}
+
+
+.marque h2, .livreDOR h2 {
+	color: #DAD8D9;
+	font-family: 'OpenSans-Light';
+	font-size: 47px;
+}
+
+.titre {
+	height : 200px;
+	padding : 100px 0 0 0;
+}
+
+#marque img {
+	height: 80px;
+	width: 80px;
+}
+
+#marque p {
+	font-family : 'OpenSans-Light';
+	font-size : 14px;
+}
+
+.gris {
+	color : #606060;
+	margin : 30px 0 20px 0;
+	text-align: center;
+}
+
+.blanc, #marque h3 {
+	color : #ffffff;
+}
+
+#marque h3 {
+	font-family : 'OpenSans-Light';
+	font-size : 2px;
+}
+
+#marque h4 {
+	font-family : 'OpenSans-Light';
+	font-size : 27px;
+	color : #993399;
+	line-height: 72px;
+	text-align: center;
+}
+
+
+
+.titre-vetm {
+	background-color : #fff;
+	height : 240px;
+	width : 100%;
+	background-image : url(images/chemises.png);
+	background-repeat: no-repeat;
+	background-position: 90% 90%;
+}
+
+.cadreV {
+	height : 72px;
+	width : 100%;
+
+	
+
+}
+
+.titre-acces {
+	background-color : #fff;
+	height : 240px;
+	width : 100%;
+	background-image : url(images/boucles.png);
+	background-repeat: no-repeat;
+	background-position: 90% 90%;
+}
+
+.cadreA {
+	height : 72px;
+	width : 100%;
+;
+	
+
+}
+
+.titre-deco {
+	background-color : #fff;
+	height : 240px;
+	width : 100%;
+	background-image : url(images/miroires.png);
+	background-repeat: no-repeat;
+	background-position: 90% 70%;
+	
+}
+
+.cadreD {
+	height : 72px;
+	width : 100%;
+	
+}
+
+
+
+
+.contenu {
+	background-image : url(images/bg-grey.jpg);
+
+	background-color: #ECECEC;
+	height : auto;
+	width : 100%;
+	padding: 20px 0 0 0;
+
+}
+
+.no-gutters.vetm, .no-gutters.access, .no-gutters.deco {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.no-gutters [class*='col-'],
+.no-gutters [class*='col-'] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.deco p, .acces p, .vetm p  {
+	font-size: 11px;
+	text-align: left;
+	width: 110px;
+	margin: 0 0 30px 20px;
+	color: #3B3B3B;
+}
+
+
+
+@media screen and (min-width: 240px) and (max-width: 480px) {
+	.deco p, .acces p, .vetm p  {
+	display: none;
+}
+	.titre-deco, .titre-acces, .titre-vetm {
+		background-position: center 86%;
+	}
+}
+
+
+
+.zoneTelechargement {
+	height : 140px;
+	width : 100%;
+	background-color: #63398B;
+	text-align: center;
+	padding : 50px 0 20px 0;
+	margin-top: 50px;
+}
+
+.zoneTelechargement .icone {
+
+	height: 51px;
+	width : 51px;
+	background-image: url(images/downld.png);
+	background-repeat: no-repeat;
+	margin: -70px auto;
+
+
+}
+
+.zoneTelechargement a {
+	color: #fff;
+	font-size: 21px;
+	font-family : 'OpenSans-Light';
+	margin-top: 100px;
+}
+
+
+/*///////////LIVRE D'OR///////////
+////////////////////////////*/
+
+.extrait {
+	height: auto;
+	width : ;
+	background-color: #ffffff;
+	padding: 30px 20px 20px 20px;
+	margin-top: 20px;
+}
+
+.extrait:last-child {
+	margin-bottom: 40px;
+}
+
+#livreDOR h4 {
+	font-size: 21px;
+	color: #9E2E9C;
+	line-height: 0;
+	text-align: left;
+	
+}
+
+.date{
+	text-align: left;
+}
+
+.Cmnt p {
+	text-align: left;
+	width : auto;
+
+}
+
+.livreDOR .contenu {
+	height: auto;
+	background-repeat: repeat;
+	padding: 10px 0 40px 0;
+	margin-bottom: 40px;
+}
+
+.liensLivre {
+
+}
+
+.liensLivre .iconConsult {
+	width : 59;
+	height: 39;
+	text-align: center;
+	background-image: url(images/lunettes.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+
+}
+
+.liensLivre .iconSigner {
+	width : 40;
+	height: 38;
+	text-align: center;
+	background-image: url(images/bulle.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+
+.liensLivre a{
+	color: #663398;
+	font-size: 21px;
+	font-family : 'OpenSans-Light';
+	margin-top: 40px;
+}
+
+
+
+.full-width.dropdown > .dropdown-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+/*////////// FOOTER //////////
+////////////////////////////*/
+.coordonee{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(215,213,214);
+    font-family:"OpenSans-Light";
+
+  }
+
+  .icone {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .nom{
+    margin-top: 20px;
+    color:rgb(103,50,156);
+
+  }
+  .telephone, .adresse{
+    
+    color: rgb(160,46,160);
+    
+  }
+  .formulaire{
+    
+  }
+  
+   .titre {
+    height : 200px;
+    padding : 100px 0 0 0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #DAD8D9;
+    font-family: 'OpenSans-Light';
+    font-size: 47px;
+}
+.envoyer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(119,74,169);
+    margin-top: 20px;
+  }
+  .envoyer p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+  }
+  .envoyer img{
+    margin-top: 30px;
+  }
+  .haut{
+    color: rgb(184,184,184);
+    
+  }
+
+
+
+  .iconesContact{
+  	display: inline;
+  	margin: auto;
+  }
+
+  .mail {
+     float:left;
+     margin-left:550px;
+ }
+   .phone {
+     float:left;
+     margin-left:-80px;
+ }
+  .twitter {
+    float:left;
+    margin-left:-80px;
+}
+ .facebook {
+    float:left;
+    margin-left:-30px;
+}
+
+  .phone p, .mail p{
+  	visibility: hidden;
+  }
+
+  .phone:hover p, .mail:hover p {
+  	visibility: visible;
+  }
+
+
+  .case{
+    background-color: rgb(243,243,243);
+   border-radius: 0;
+}
+
+	#email , #Telephone , #name{
+    color:black;
+    font-family: 'OpenSans-Light';
+}
+
+	textarea{
+    background-color: #F3F3F3;
+    color:black;
+    border-radius: 0;
+    border: 0;
+    font-family: 'OpenSans-Light';
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
