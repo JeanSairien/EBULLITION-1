@@ -165,8 +165,9 @@ button:hover {
 }
 
 .logoHeader img{
-width: 116px;
-height: 116px
+width: 180px;
+height: 150px;
+border-radius: 25px;
 }
 
 .presentation{
