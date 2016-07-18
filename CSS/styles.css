@@ -148,6 +148,10 @@ button:hover {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff;
 }
+
+.dropdown a {
+	display: inline-block!important;
+}
 /*///////////HEADER////////////
 ////////////////////////////*/
 
@@ -555,34 +559,30 @@ font-size: 16px;
 
 
   .iconesContact{
-  	display: inline;
-  	margin: auto;
+  	display: inline-block;
+  	color: #993399;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  	padding-left: 540px;
   }
 
   .mail {
-     float:left;
-     margin-left:550px;
+     display: inline-block;
  }
-   .phone {
-     float:left;
-     margin-left:-80px;
+   .tel {
+     display: inline-block;
  }
-  .twitter {
-    float:left;
-    margin-left:-80px;
-}
  .facebook {
-    float:left;
-    margin-left:-30px;
+ 	display: inline-block;
 }
 
-  .phone p, .mail p{
+ /* .mail p {
   	visibility: hidden;
-  }
+  }*/
 
-  .phone:hover p, .mail:hover p {
-  	visibility: visible;
-  }
+/*  .mail img:hover p{
+  	visibility: visible!important;
+  }*/
 
 
   .case{
