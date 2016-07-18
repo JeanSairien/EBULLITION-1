@@ -342,22 +342,30 @@
 	       
 			    <div class="iconesContact">
 			    	<div class="mail">
-			    	<i class="fa fa-envelope-square fa-3x" aria-hidden="true"></i>
-			    	<!--<p class="nom">ANNE LEMEILLEUR</p>
-			    	<p class="telephone">+33 6 03 35 67 32</p>
-                    <p class="adresse">contact@ebullition.fr</p>-->
+			    	<i class="fa fa-envelope-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
 			        </div>
 
-			        <div class="tel">
-			        <i class="fa fa-phone-square fa-3x" aria-hidden="true"></i>
-			        <!--<p class="nom">ANNE LEMEILLEUR</p>
-                    <p class="telephone">+33 6 03 35 67 32</p>
-                    <p class="adresse">contact@ebullition.fr</p>-->
+			        <div class="tel" >
+			        <i class="fa fa-phone-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
                     </div>
-                    <a class="facebook" href="www.facebook.com"></a><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                    <a class="facebook" href="www.facebook.com"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <div id="tr" class="texteContact">
+                    <p class="nom" >ANNE LEMEILLEUR</p>
+			    	<p class="telephone" >+33 6 03 35 67 32</p>
+                    <p class="adresse" >contact@ebullition.fr</p>
+                </div>
 			        
 		        </div>
-           
+           <script type="text/javascript">
+function toggle_div(i, id) { 
+  var div = document.getElementById(id); 
+  if(div.style.display=="none") { 
+    div.style.display = "block";  
+  } else { 
+    div.style.display = "none"; 
+  }
+}
+</script>
            
 
            <form class="form-horizontal" role="form">

@@ -556,36 +556,36 @@ font-size: 16px;
     
   }
 
+.texteContact {
+	display: none;
+}
 
-
-  .iconesContact{
-  	display: inline-block;
+.iconesContact{
+	display: inline-block;
   	color: #993399;
-  	padding-top: 20px;
   	padding-bottom: 20px;
-  	padding-left: 540px;
+  	padding-left: 565px;
   }
 
   .mail {
      display: inline-block;
+     cursor: pointer;
  }
    .tel {
      display: inline-block;
+     padding-left: 10px;
+     cursor: pointer;
  }
  .facebook {
  	display: inline-block;
+ 	padding-left: 10px;
 }
 
- /* .mail p {
-  	visibility: hidden;
-  }*/
+.iconesContact a {
+	color: #993399;
+}
 
-/*  .mail img:hover p{
-  	visibility: visible!important;
-  }*/
-
-
-  .case{
+.case{
     background-color: rgb(243,243,243);
    border-radius: 0;
 }
