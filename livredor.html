@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
 	<title>Ebullition marque de vêtements</title>
-
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -14,7 +13,6 @@
 	
 	<!--::::::::::::::::::::: Bootstrap :::::::::::::::::::::
 	::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-
 	<link rel="stylesheet" type="text/css" href="CSS/bootstrap/css/bootstrap.css">
   <!--::::::::::::::::::::::: CSS :::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
@@ -31,8 +29,7 @@
     <!--::::::::::::::::::::::: FontAwesome :::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
    
-  <link rel="stylesheet" href="font awesome/css/font-awesome.min.css" type="text/css">
-
+  <link rel="stylesheet" href="CSS/font-awesome/css/font-awesome.min.css" type="text/css">
 
 
 	
@@ -44,7 +41,6 @@
 <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::: Navbar :::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-
 <nav class="row navbar navbar-default navbar-fixed-top">
       <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -100,7 +96,7 @@
                     </ul>
               </li>
 
-              <li><a class="textPrincipal" href="livreDOR.html">LIVRE D'OR</a>
+              <li><a class="textPrincipal" href="livredor.html">LIVRE D'OR</a>
               </li>
 
               <li><a class="textPrincipal" href="#contact">CONTACT</a>
@@ -108,14 +104,11 @@
 
               <li><a class="textPrincipal" href="mentions.html">MENTIONS LEGALES</a>
               </li>
-$
 
 
         </ul>
         </div>
-
     </nav>
-
 
 
 
@@ -156,22 +149,21 @@ $
 	       
 	       
 			    <div class="iconesContact">
-			    	<div class="mail">
-			    	<img src="images/mailColor.png" id="image1" onmouseover="javascript:this.src='images/mailGrey.png';" onmouseout="javascript:this.src='images/mailColor.png';" />
-			    	<p class="nom">ANNE LEMEILLEUR</p>
-                    <p class="adresse">contact@ebullition.fr</p>
-			        </div>
+            <div class="mail">
+            <i class="fa fa-envelope-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
+              </div>
 
-			        <div class="phone">
-			        <img src="images/phoneColor.png" id="image1" onmouseover="javascript:this.src='images/phoneGrey.png';" onmouseout="javascript:this.src='images/phoneColor.png';" />
-			        <p class="nom">ANNE LEMEILLEUR</p>
-                    <p class="telephone">+33 6 03 35 67 32</p>
+              <div class="tel" >
+              <i class="fa fa-phone-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
                     </div>
-
-			        <a class="twitter" href="www.twitter.com"><img src="images/t.png" ></a>
-                    <a class="facebook" href="www.facebook.com"><img src="images/f.png"></a>
-			        
-		        </div>
+                    <a class="facebook" href="www.facebook.com"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <div id="tr" class="texteContact">
+                    <p class="nom" >ANNE LEMEILLEUR</p>
+            <p class="telephone" >+33 6 03 35 67 32</p>
+                    <p class="adresse" >contact@ebullition.fr</p>
+                </div>
+              
+            </div> 
            
            
 
