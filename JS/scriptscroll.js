@@ -1,6 +1,6 @@
 $(document).ready(function(){       
    var scroll_start = 0;
-   var startchange = $('#myCarousel');
+   var startchange = $('#header');
    var offset = startchange.offset();
     if (startchange.length){
    $(document).scroll(function() { 
@@ -14,11 +14,13 @@ $(document).ready(function(){
     }
 });
 
-function toggle_div(i, id) { 
+function toggle_div(a, id) { 
   var div = document.getElementById(id); 
-  if(div.style.display=="none") { 
+  if(div.style.display != "block") { 
     div.style.display = "block";  
   } else { 
     div.style.display = "none"; 
   }
 }
+
+
