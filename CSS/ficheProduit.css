@@ -1,0 +1,22 @@
+.produit {
+	padding-top: 50px;
+}
+.produit h3 {
+	float: right;
+	padding-right: 230px;
+	font-size: 35px;
+}
+
+.imageProduit {
+	padding-left: 140px;
+	padding-top: 15px;
+}
+
+.imgPrincipale {
+	width: 450px;
+	height: 430px;
+}
+
+.texteProduit {
+	padding-right: 50px;
+}
