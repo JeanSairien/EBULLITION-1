@@ -210,9 +210,9 @@ font-size: 16px;
   .h3orange{
     color: rgb(232,171,0);
     font-weight: normal;
-
-
   }
+
+
 
   .h3violet{
     color: rgb(219,117,156);
@@ -247,7 +247,7 @@ font-size: 16px;
 
 
 .marque h2, .livreDOR h2 {
-	color: #DAD8D9;
+	color: #787777;
 	font-family: 'OpenSans-Light';
 	font-size: 47px;
 }
@@ -532,7 +532,7 @@ font-size: 16px;
 }
 
 .contact h2 {
-    color: #DAD8D9;
+    color: #787777;
     font-family: 'OpenSans-Light';
     font-size: 47px;
 }
