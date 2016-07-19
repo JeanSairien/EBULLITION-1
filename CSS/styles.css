@@ -3,38 +3,38 @@
 
 @font-face {
 font-family: 'BalineseFamily';
-src: url(fonts/BalineseFamily.ttf);
+src: url(../fonts/BalineseFamily.ttf);
 }
 
 
 @font-face {
 font-family: 'OpenSans-Light';
-src: url(fonts/OpenSans/OpenSans-Light.ttf);
+src: url(../fonts/OpenSans/OpenSans-Light.ttf);
 }
 
 @font-face {
 font-family: 'OpenSans-LightItalic';
-src: url(fonts/OpenSans/OpenSans-LightItalic.ttf);
+src: url(../fonts/OpenSans/OpenSans-LightItalic.ttf);
 }
 
 @font-face {
 font-family: 'OpenSans-Italic';
-src: url(fonts/OpenSans/OpenSans-Italic.ttf);
+src: url(../fonts/OpenSans/OpenSans-Italic.ttf);
 }
 
 @font-face {
 font-family: 'OpenSans-Regular';
-src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
 }
 
 @font-face {
 font-family: 'OpenSans-Semibold';
-src: url(OpenSans/OpenSans-Semibold.ttf);
+src: url(../OpenSans/OpenSans-Semibold.ttf);
 }
 
 @font-face {
 font-family: 'OpenSans-Bold';
-src: url(fonts/OpenSans/OpenSans-Bold.ttf);
+src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
 }
 
 
@@ -59,7 +59,7 @@ a:hover {
 ////////////////////////////*/
 
 .navbar {
-	background-image: url(images/bg-color.jpg);
+	background-image: url(../images/bg-color.jpg);
 	background-size: cover;
 	border: 0;
 }
@@ -80,7 +80,7 @@ a:hover {
 }
 
 #myNavbar {
-	background-image:url(images/bg-color.jpg);
+	background-image:url(../images/bg-color.jpg);
 }
 
 .nav {
@@ -123,16 +123,16 @@ li:hover ul {
 
 
 .zoneVetm {
-	background-image: url(images/kimono.png);
+	background-image: url(../images/kimono.png);
 	background-position: 160px center ;
 }
 
 .zoneAcc {
-	background-image: url(images/colier.png);
+	background-image: url(../images/colier.png);
 }
 
 .zoneDeco {
-	background-image: url(images/tapis.png);
+	background-image: url(../images/tapis.png);
 }
 
 
@@ -147,6 +147,10 @@ button:hover {
 
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff;
+}
+
+.dropdown a {
+	display: inline-block!important;
 }
 /*///////////HEADER////////////
 ////////////////////////////*/
@@ -165,9 +169,8 @@ button:hover {
 }
 
 .logoHeader img{
-width: 180px;
-height: 150px;
-border-radius: 25px;
+width: 116px;
+height: 116px
 }
 
 .presentation{
@@ -292,7 +295,7 @@ font-size: 16px;
 	background-color : #fff;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/chemises.png);
+	background-image : url(../images/chemises.png);
 	background-repeat: no-repeat;
 	background-position: 90% 90%;
 }
@@ -309,7 +312,7 @@ font-size: 16px;
 	background-color : #fff;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/boucles.png);
+	background-image : url(../images/boucles.png);
 	background-repeat: no-repeat;
 	background-position: 90% 90%;
 }
@@ -326,7 +329,7 @@ font-size: 16px;
 	background-color : #fff;
 	height : 240px;
 	width : 100%;
-	background-image : url(images/miroires.png);
+	background-image : url(../images/miroires.png);
 	background-repeat: no-repeat;
 	background-position: 90% 70%;
 	
@@ -342,7 +345,7 @@ font-size: 16px;
 
 
 .contenu {
-	background-image : url(images/bg-grey.jpg);
+	background-image : url(../images/bg-grey.jpg);
 
 	background-color: #ECECEC;
 	height : auto;
@@ -396,7 +399,7 @@ font-size: 16px;
 
 	height: 51px;
 	width : 51px;
-	background-image: url(images/downld.png);
+	background-image: url(../images/downld.png);
 	background-repeat: no-repeat;
 	margin: -70px auto;
 
@@ -459,7 +462,7 @@ font-size: 16px;
 	width : 59;
 	height: 39;
 	text-align: center;
-	background-image: url(images/lunettes.png);
+	background-image: url(../images/lunettes.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 
@@ -469,7 +472,7 @@ font-size: 16px;
 	width : 40;
 	height: 38;
 	text-align: center;
-	background-image: url(images/bulle.png);
+	background-image: url(../images/bulle.png);
 	background-repeat: no-repeat;
 	background-position: top center;
 	
@@ -553,40 +556,40 @@ font-size: 16px;
     
   }
 
+.texteContact {
+	display: none;
+}
 
+.iconesContact i:hover{
+	color: #DAD8D9;
+}
 
-  .iconesContact{
-  	display: inline;
-  	margin: auto;
+.iconesContact{
+	display: inline-block;
+  	color: #993399;
+  	padding-bottom: 20px;
+  	padding-left: 565px;
   }
 
   .mail {
-     float:left;
-     margin-left:550px;
+     display: inline-block;
+     cursor: pointer;
  }
-   .phone {
-     float:left;
-     margin-left:-80px;
+   .tel {
+     display: inline-block;
+     padding-left: 10px;
+     cursor: pointer;
  }
-  .twitter {
-    float:left;
-    margin-left:-80px;
-}
  .facebook {
-    float:left;
-    margin-left:-30px;
+ 	display: inline-block;
+ 	padding-left: 10px;
 }
 
-  .phone p, .mail p{
-  	visibility: hidden;
-  }
+.iconesContact a {
+	color: #993399;
+}
 
-  .phone:hover p, .mail:hover p {
-  	visibility: visible;
-  }
-
-
-  .case{
+.case{
     background-color: rgb(243,243,243);
    border-radius: 0;
 }
