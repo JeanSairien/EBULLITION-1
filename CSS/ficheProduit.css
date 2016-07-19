@@ -20,3 +20,13 @@
 .texteProduit {
 	padding-right: 50px;
 }
+
+.imgSecond, .imgTrois, .imgQuatri {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.imgQuatri {
+	margin-right: 50px;
+}
