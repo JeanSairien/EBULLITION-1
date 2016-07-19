@@ -43,8 +43,11 @@ src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
 ////////////////////////////*/
 
 body {
-	padding: 0;
+	margin:0;
+  padding: 0;
 	
+  
+  
 }
 
 .container-fuild {
@@ -112,29 +115,7 @@ li:hover ul {
 	display : block;
 }
 
-.zoneDeco, .zoneAcc, .zoneVetm {
-	min-width : 320px;
-	min-height : 160px;
-	padding : 10px;
-	background-color : rgba(255,255,255,0.8) ;
-	background-repeat: no-repeat;
-	background-position: 180px center ;
-}
 
-
-
-.zoneVetm {
-	background-image: url(../images/kimono.png);
-	background-position: 160px center ;
-}
-
-.zoneAcc {
-	background-image: url(../images/colier.png);
-}
-
-.zoneDeco {
-	background-image: url(../images/tapis.png);
-}
 
 
 .navbar-toggle {
@@ -165,13 +146,19 @@ button:hover {
 }
 
 .logoHeader{
-  height: auto;
-  padding: 80px 0 10px 0;
+  padding: 30px 0px 0px;
+  background-color: #F5F5F5;
+  
+  border-radius: 10px;
+  margin-top: 73px;
 }
 
 .logoHeader img{
-width: 116px;
-height: 116px
+  width: 450px;
+  height: 250px;
+  box-shadow: 0px 10px 5px purple;
+
+
 }
 
 .presentation{
@@ -182,103 +169,20 @@ font-size: 16px;
 
 }
 
-/*///////////CAROUSEL////////////
-////////////////////////////*/
-
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
-
- .titre3{
-  	float: left;
-  	margin-top: -10em; 
-  	font-size: 80px;
-  	font-family: 'OpenSans-Light';
-  	text-shadow: none;
-  	color:rgb(92,92,92);
-  	text-transform: uppercase;
-    font-size: 35px;
-
-  }
-
-  .h3gras{
-    color: rgb(99,99,99);
-    font-weight:bold;
-  }
-  .h3orange{
-    color: rgb(232,171,0);
-    font-weight: normal;
 
 
-  }
-
-  .h3violet{
-    color: rgb(219,117,156);
-    font-weight: normal;
-
-  }
-
-  .texteCarousel{
-  	float: left;
-  	margin-top: -15em;
-  	font-family: 'OpenSans-Light';
-  	text-shadow: none;
-  	color: black;
-  }
-  
-  .carousel-control.right, .carousel-control.left {
-  	background-image:none;
-  }
-
-.slide {
-	width: 100%;
-}
-
-
-  
 /*///////////VETEMENTS///////////
 ////////////////////////////*/
 
-div.container-fluid .bod{
-	height: 100%;
-	width: 100%;
 
-}
 
-div.row{
-	display:block;
+
+
+.kurta,.kimono,.chemisier,.ikat,.veste,.tie{
+	border-radius:30px;
+	height:300px;
+	width: 850px;
 	
-}
-
-div.col-md-3{
-	float:left;
-	height: 150px;
-	width: 300px;
-	margin-left: 60px;
-
-	
-}
-
-
-
-
-
-
-
-div.col-md-3 h1{
-	margin-top: 50px;
-	margin-left: 150px;
-
-}
-
-.kurta,.kimono,.chemisier{
-	display:inline-block;
-	height:150px;
-	width: 300px;
-	margin-left: 60px;
-	margin-bottom: 150px;
 
 }
 
@@ -297,17 +201,6 @@ div.col-md-3 h1{
 
 	box-shadow: 0px 10px 5px purple;
  }
-
-
-
-.ikat,.veste,.tie{
-	display:inline-block;
-	height:150px;
-	width: 300px;
-	margin-left: 60px;
-	
-
-}
 
 
 .ikat:hover{
@@ -351,7 +244,6 @@ div.col-md-3 h1{
   }
 
   .nom{
-    margin-top: 20px;
     color:rgb(103,50,156);
 
   }
