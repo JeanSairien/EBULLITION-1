@@ -23,4 +23,9 @@ function toggle_div(a, id) {
   }
 }
 
+function onmouseover(h1, id){
+  var div=document.getElementById(id);
+    
+}
+
 
