@@ -138,27 +138,22 @@ button:hover {
 ////////////////////////////*/
 
 .logoHeader h1{
-	color:rgb(156,48,154);
-	font-family: 'BalineseFamily';
-	line-height: 0;
-	font-size: 80px;
-	margin-top: 60px;
+  color:rgb(156,48,154);
+  font-family: 'BalineseFamily';
+  line-height: 0;
+  font-size: 80px;
+  margin-top: 60px;
 }
 
 .logoHeader{
-  padding: 30px 0px 0px;
-  background-color: #F5F5F5;
-  
-  border-radius: 10px;
-  margin-top: 73px;
+  height: auto;
+  padding: 80px 0 10px 0;
 }
 
 .logoHeader img{
-  width: 450px;
-  height: 250px;
-  box-shadow: 0px 10px 5px purple;
-
-
+width: 400px;
+height: 230px;
+border-radius: 20px;
 }
 
 .presentation{
