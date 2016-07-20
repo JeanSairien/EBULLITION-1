@@ -622,3 +622,24 @@ font-size: 16px;
 .fleche p {
 	padding-left: 590px;
 }
+
+.chemin {
+	padding-left: 50px; 
+	font-size: 20px;
+}
+
+.chemin i  {
+	color: #78005A;
+}
+
+.ment {
+	display: block;
+	padding-left: 150px;
+	padding-right: 50px; 
+}
+
+.mentTitre{
+	padding-left: 100px;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
