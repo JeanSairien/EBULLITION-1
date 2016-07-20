@@ -23,9 +23,24 @@ function toggle_div(a, id) {
   }
 }
 
-function onmouseover(h1, id){
-  var div=document.getElementById("hover");
+1
+  
 
-}
+/*$("#hover").hover( handlerIn, handlerOut );*/
+
+
+$( ".hover" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( ".hover.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+
 
 

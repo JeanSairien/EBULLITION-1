@@ -196,12 +196,12 @@ div.col-md-6{
 }
 
 
-#hover:hover{
-  
-  background-image:url("../images/bg-color.jpg");
-  opacity: 0,5;
+.hover:hover{
+  background-color: purple;
+  /*background-image:url("../images/bg-color.jpg");*/
+  opacity: 0.2;
   border-radius: 30px;
-  background-size: cover;
+  
 
 }
 
