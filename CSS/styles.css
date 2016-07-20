@@ -535,6 +535,7 @@ font-size: 16px;
     color: #787777;
     font-family: 'OpenSans-Light';
     font-size: 47px;
+    padding-left: 30px;
 }
 .envoyer{
     text-align: center;
@@ -609,4 +610,36 @@ font-size: 16px;
     margin-top: 5px;
     padding-left: 10px;
     padding-top: 4px;
+}
+
+.fleche img{
+	padding-top: 30px;
+	margin-left: 620px;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.fleche p {
+	padding-left: 590px;
+}
+
+.chemin {
+	padding-left: 50px; 
+	font-size: 20px;
+}
+
+.chemin i  {
+	color: #78005A;
+}
+
+.ment {
+	display: block;
+	padding-left: 150px;
+	padding-right: 50px; 
+}
+
+.mentTitre{
+	padding-left: 100px;
+	font-size: 40px;
+	padding-bottom: 20px;
 }
