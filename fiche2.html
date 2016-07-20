@@ -17,19 +17,20 @@
   <!--::::::::::::::::::::::: CSS :::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
   
-  <link rel="stylesheet" type="text/css" href="CSS/vet.css">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <link rel="stylesheet" type="text/css" href="CSS/ficheProduit.css">
   
   
   <!--::::::::::::::::::::::: Js :::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
-  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src ="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="CSS/bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="JS/scriptscroll.js"></script>
     
     <!--::::::::::::::::::::::: FontAwesome :::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
    
-  <link rel="stylesheet" href="CSS/font-awesome/css/font-awesome.min.css" type="text/css">
+ <link rel="stylesheet" href="CSS/font-awesome/css/font-awesome.min.css" type="text/css">
 
 
 	
@@ -112,63 +113,60 @@
 
 
 <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::::::::::::::::::::::: image :::::::::::::::::::::::::::
+::::::::::::::::::::::: header :::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
 <header class="row" id="header">
 
-      <div class="text-center logoHeader">
-         <img src="images/logo.jpg">
-         <p class="presentation">Vêtements, Accesoires et Décoration</p>
-      </div>
+  <div class="text-center logoHeader">
+    <img src="images/logo.jpg"/>
+    <p class="presentation">Vêtements, Accesoires et Décoration</p>
+  </div>
+</header>
 
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::: Main :::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+<div class="produit">
+  <p class="chemin"><a href="index.html"><i class="fa fa-home fa-1x" aria-hidden="true"></i></a> / Vêtements / Chemisier Ikat long / Ikat multicolore-blue </p>
 
+  <h3 class="ikat">Ikat multicolore-blue</h3>
+  <div class="imageProduit col-lg-6 imageProd2">
 
-  <div class="row">
-      <div class="col-lg-12">
-          <div class="col-md-6">
-            
-            <img class="kurta img-responsive" src="images/Kurta.png"/>
-          </div>
-      
+    <img class="imgPrincipale" src="images/Ikat.JPG"/>
+    <img class="imgSecond"src="images/Ikat.JPG"/>
+    <img class="imgTrois" src="images/Ikat.JPG"/>
+    <img class="imgQuatri pull-right" src="images/Ikat.JPG"/>
+  </div>
 
-      
-          <div class="col-md-6">
-            
-            <img class="kimono img-responsive" src="images/Kimono.png"/>
-          </div>
-      
+  <div class="texteProduit col-lg-6 pull-right">
+    <p class="ref">Ref: 30YOU216TUN</p>
 
-      
-          <div class="col-md-6">
-            
-            <img class="chemisier img-responsive" src="images/Chemisier.png"/>
-          </div>
-       
-      
-          <div class="col-md-6">
-            
-            <img class="ikat img-responsive" src="images/Ikat.JPG"/>
-          </div>
-      
+    <h4>Description</h4>
 
-      
-          <div class="col-md-6">
-            <img class="veste img-responsive" src="images/Mantea6.png"/>
-          </div>
-      
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      
-          <div class="col-md-6">
-            <img class="tie img-responsive" src="images/Chemisier.png"/>
-          </div>
-      </div>
-  <!--</div>-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+    <p class="prix">Prix: 00.00€</p>
+  </div>
+</div>
 
-
-
-
-
+<div class="col-lg-12 catalogue">
+  <h3>Telecharger notre catalogue</h3>
+  <p>Retrouvez tous nos produit dedans!</p>
+  <i class="fa fa-download fa-3x" aria-hidden="true"></i>
+</div>
 
 
 <!--::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -176,7 +174,7 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
 
 
-	<footer>
+	<footer class="col-lg-12">
 	    <div id="contact" class="contact">
 	        
 	        	  <div class="titre"><h2>CONTACT</h2></div>
@@ -198,11 +196,11 @@
                 </div>
               
             </div> 
-    </div>
-
-
-
-		
+          
+              <div class="fleche">                            
+               <a href id="title"><img src="images/fleche.svg"></a>
+               <p class="haut">HAUT DE PAGE</p>
+		          </div>
 	 </footer>
 
 
