@@ -1,15 +1,16 @@
 .produit {
-	padding-top: 50px;
+	padding-top: 100px;
 }
 .produit h3 {
 	float: right;
 	padding-right: 230px;
 	font-size: 35px;
+	padding-top: 20px;
 }
 
 .imageProduit {
 	padding-left: 140px;
-	padding-top: 15px;
+	
 }
 
 .imgPrincipale {
@@ -25,8 +26,57 @@
 	width: 100px;
 	height: 100px;
 	display: inline-block;
+	padding-top: 10px;
 }
 
 .imgQuatri {
 	margin-right: 50px;
+}
+
+.imgTrois {
+	margin-left: 55px;
+}
+
+.imgSecond {
+	margin-left: 20px;
+}
+
+.ref {
+	color: #78005A;
+}
+
+.prix {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.chemin {
+	padding-left: 50px; 
+	font-size: 20px;
+}
+
+.chemin i  {
+	color: #78005A;
+}
+
+.catalogue {
+	height: 150px;
+	background-color: #78005A;
+	margin-top: 150px;
+	color: white;
+}
+
+.catalogue h3 {
+	padding-left: 430px;
+	font-size: 30px;
+}
+
+.catalogue p {
+	color: #E7CFBA;
+	padding-left: 500px;
+}
+
+.catalogue i {
+	padding-left: 590px;
+	cursor: pointer;
 }
