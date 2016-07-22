@@ -1,0 +1,338 @@
+ /*///////////FONT LOGO///////////
+////////////////////////////*/
+
+@font-face {
+font-family: 'BalineseFamily';
+src: url(../fonts/BalineseFamily.ttf);
+}
+
+
+@font-face {
+font-family: 'OpenSans-Light';
+src: url(../fonts/OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-LightItalic';
+src: url(../fonts/OpenSans/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Italic';
+src: url(../fonts/OpenSans/OpenSans-Italic.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Semibold';
+src: url(../OpenSans/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+}
+
+
+
+/*///////////BODY///////////
+////////////////////////////*/
+
+body {
+	margin:0;
+  padding: 0;
+	
+  
+  
+}
+
+.container-fuild {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+a:hover {
+	text-decoration-line : none;
+	}
+/*///////////NAVBAR////////////
+////////////////////////////*/
+
+.navbar {
+	background-image: url(../images/bg-color.jpg);
+	background-size: cover;
+	border: 0;
+}
+
+.navbar-brand {
+	visibility : hidden;
+}
+
+.navbar-brand.logo {
+	padding: 10px 0 0 14px;
+}
+
+.logoH {
+	font-family: 'BalineseFamily';
+	color : #fff;
+	font-size: 48px;
+	line-height: 0;
+}
+
+#myNavbar {
+	background-image:url(../images/bg-color.jpg);
+}
+
+.nav {
+	float:left;
+	font-family: 'OpenSans-Light';
+	height : 32px;
+}
+
+
+.navbar-collapse ul li .textPrincipal {
+
+	color: #ffffff;
+	margin-left:20px;
+	margin-right:8px;
+	font-size:16px;
+	line-height : 1.2;
+
+}
+
+.navbar-collapse ul li .textPrincipal:hover {
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	background-height :36px;
+}
+
+
+li:hover ul {
+	display : block;
+}
+
+
+
+
+.navbar-toggle {
+	border: none;
+}
+
+button:hover {
+	border: none;
+	background-color : black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+
+.dropdown-menu a {
+	display: inline-block!important;
+}
+/*///////////HEADER////////////
+////////////////////////////*/
+
+.logoHeader h1{
+  color:rgb(156,48,154);
+  font-family: 'BalineseFamily';
+  line-height: 0;
+  font-size: 80px;
+  margin-top: 60px;
+}
+
+.logoHeader{
+
+  padding: 60px 0px 0px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  
+
+}
+
+.logoHeader img{
+width: 400px;
+height: 230px;
+border-radius: 20px;
+}
+
+.presentation{
+color: #63398B;
+font-family:'OpenSans-Light';
+margin-top:10px;
+font-size: 16px;
+
+}
+
+
+
+/*///////////VETEMENTS///////////
+////////////////////////////*/
+div.col-lg-12{
+      padding-top: 150px;
+      padding-bottom: 150px;
+
+
+}
+
+div.col-md-6{
+  padding: 0;
+
+}
+
+
+
+
+.bracelet,.Collier,.maroquinerie,.Foulards,.Pareos,.Bindis,.Bijoux{
+	border-radius:30px;
+	height:300px;
+	width: 850px;
+  clear:both;
+  
+	
+
+}
+
+
+.hover:hover{
+  /*background-image:url("../images/bg-color.jpg");*/
+  opacity: 0.8;
+  border-radius: 30px;
+  color: orange;
+
+}
+
+h1{
+  font-family: 'BalineseFamily';
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+
+
+
+
+/*////////// FOOTER //////////
+////////////////////////////*/
+
+
+
+.coordonee{
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(215,213,214);
+    font-family:"OpenSans-Light";
+
+  }
+
+  .icone {
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .nom{
+    color:rgb(103,50,156);
+
+  }
+  .telephone, .adresse{
+    
+    color: rgb(160,46,160);
+    
+  }
+  .formulaire{
+    
+  }
+  
+
+
+.contact h2 {
+    color: purple;
+    font-family: 'OpenSans-Light';
+    font-size: 47px;
+    margin-left: 580px;
+
+    
+
+}
+.envoyer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(119,74,169);
+    margin-top: 20px;
+  }
+  .envoyer p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+    
+  }
+  .envoyer img{
+    margin-top: 30px;
+  }
+  .haut{
+    color: rgb(184,184,184);
+    
+  }
+
+.texteContact {
+	display: none;
+}
+
+.iconesContact i:hover{
+	color: #DAD8D9;
+}
+
+.iconesContact{
+	display: inline-block;
+  	color: #993399;
+  	padding-bottom: 20px;
+  	padding-left: 565px;
+    margin-left: 50px;
+  }
+
+  .mail {
+     display: inline-block;
+     cursor: pointer;
+ }
+   .tel {
+     display: inline-block;
+     padding-left: 10px;
+     cursor: pointer;
+ }
+ .facebook {
+ 	display: inline-block;
+ 	padding-left: 10px;
+}
+
+.iconesContact a {
+	color: #993399;
+}
+
+.case{
+    background-color: rgb(243,243,243);
+   border-radius: 0;
+}
+
+	#email , #Telephone , #name{
+    color:black;
+    font-family: 'OpenSans-Light';
+}
+
+	textarea{
+    background-color: #F3F3F3;
+    color:black;
+    border-radius: 0;
+    border: 0;
+    font-family: 'OpenSans-Light';
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
