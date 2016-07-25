@@ -186,9 +186,9 @@ div.col-md-6{
 
 
 .porte,.nappe,.savon,.rectangle,.circul,.vide,.soliflore{
-	border-radius:30px;
+	/*border-radius:30px;*/
 	height:300px;
-	width: 850px;
+	width: 100%;
   clear:both;
 
   
@@ -198,7 +198,7 @@ div.col-md-6{
 
 
 .hover:hover{
-  background-color: black;
+  background-color: purple;
   opacity: 0.8;
   border-radius: 30px;
   color: orange;
