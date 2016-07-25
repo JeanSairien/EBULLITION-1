@@ -253,7 +253,7 @@ h1{
 
 
 .contact h2 {
-    color: purple;
+    color: #787777;
     font-family: 'OpenSans-Light';
     font-size: 47px;
     margin-left: 580px;
@@ -294,8 +294,6 @@ h1{
 	display: inline-block;
   	color: #993399;
   	padding-bottom: 20px;
-  	padding-left: 565px;
-    margin-left: 50px;
   }
 
   .mail {
