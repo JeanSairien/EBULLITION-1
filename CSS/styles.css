@@ -258,8 +258,9 @@ font-size: 16px;
 }
 
 #marque img {
-	height: 80px;
-	width: 80px;
+	height: 150px;
+	width: 150px;
+	
 }
 
 #marque p {
@@ -296,7 +297,7 @@ font-size: 16px;
 	background-color : #fff;
 	height : 240px;
 	width : 100%;
-	background-image : url(../images/chemises.png);
+	/*background-image : url(../images/chemises.png);*/
 	background-repeat: no-repeat;
 	background-position: 90% 90%;
 }
@@ -308,6 +309,10 @@ font-size: 16px;
 	
 
 }
+.cadreV img {
+	height: 150px;
+	width: 150px;
+}
 
 .titre-acces {
 	background-color : #fff;
@@ -316,6 +321,38 @@ font-size: 16px;
 	background-image : url(../images/boucles.png);
 	background-repeat: no-repeat;
 	background-position: 90% 90%;
+}
+.image1 {
+	height :150px;
+	width :150px;
+	margin-top :-220px;
+	margin-left: 140px;
+}
+.image1:hover{
+	background-color:rgba(0,0,0,0.1);
+
+}
+.image2 {
+	height :150px;
+	width :150px;
+	margin-top :-220px;
+	margin-left: 140px;
+}
+.image2:hover{
+	background-color:rgba(0,0,0,0.1);
+
+}
+
+.image3 {
+	height :150px;
+	width :150px;
+	margin-top :-220px;
+	margin-left: 140px;
+}
+.image3:hover{
+	background-color:rgba(0,0,0,0.1);
+
+
 }
 
 .cadreA {
@@ -326,11 +363,12 @@ font-size: 16px;
 
 }
 
+
 .titre-deco {
 	background-color : #fff;
 	height : 240px;
 	width : 100%;
-	background-image : url(../images/miroires.png);
+	/*background-image : url(../images/miroires.png);*/
 	background-repeat: no-repeat;
 	background-position: 90% 70%;
 	
@@ -644,7 +682,26 @@ font-size: 16px;
 	font-size: 40px;
 	padding-bottom: 20px;
 }
-
-.row {
-	margin: 0px!important;	
+.partie1{
+    margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color:rgba(0,0,0,0.1);
+}
+.partie2{
+    margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color:rgba(0,0,0,0.1);
+}
+.text{
+	color: #78005A;
 }
