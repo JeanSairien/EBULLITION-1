@@ -17,7 +17,7 @@
   <!--::::::::::::::::::::::: CSS :::::::::::::::::::::::
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
   
-  <link rel="stylesheet" type="text/css" href="CSS/access.css">
+  <link rel="stylesheet" type="text/css" href="CSS/deco.css">
 
   
   <!--::::::::::::::::::::::: Js :::::::::::::::::::::::
@@ -99,7 +99,7 @@
               <li><a class="textPrincipal" href="livredor.html">LIVRE D'OR</a>
               </li>
 
-              <li><a class="textPrincipal" href="index.html/#contact">CONTACT</a>
+              <li><a class="textPrincipal" href="#contact">CONTACT</a>
               </li>
 
               <li><a class="textPrincipal" href="mentions.html">MENTIONS LEGALES</a>
@@ -117,30 +117,28 @@
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
 <header class="row" id="header">
 
-      <div class="text-center logoHeader col-lg-6 col-lg-offset-3">
-
-         <img src="images/logo.jpg" class="img-responsive col-lg-offset-1" >
-         <p class="presentation" id="Presentation">Vêtements, Accesoires et Décoration</p>
-
+      <div class="text-center logoHeader">
+         <a href="index.html"><img src="images/logo.jpg">
+         <p class="presentation">Vêtements, Accesoires et Décoration</p></a>
       </div>
 
 
 
   <div class="row">
-      <div class="col-lg-12">
+      <div class=" col-lg-offset-3 col-lg-12">
           <div class="col-md-6">
-            <div class="hover">
-            <h1>bracelets</h1>
-            <a href="fiche3.html"><img class="bracelet img-responsive" src="images/bracelet.JPG"/></a>
+            <div onmouseover() class="hover">
+            <div id="cache">porte-encens</div>
+            <a href="fiche3.html"><img class="porte img-responsive" src="images/encens.JPG"/></a>
             </div>
           </div>
       
 
       
-          <div class="col-md-6">
+          <!--<div class="col-md-6">
             <div class="hover">
-            <h1>Colliers</h1>
-            <a href="fiche3.html"><img class="Collier img-responsive" src="images/chapelet.JPG"/></a>
+            <h1>Nappes</h1>
+            <a href="fiche3.html"><img class="nappe img-responsive" src="images/dalhia.JPG"/></a>
             </div>
           </div>
       
@@ -148,16 +146,16 @@
       
           <div class="col-md-offset-2 col-md-8">
             <div class="hover">
-            <h1>Maroquinerie</h1>
-            <a href="fiche3.html"><img  class="maroquinerie img-responsive" src="images/feuille.JPG"/></a>
+            <h1>Porte Savons</h1>
+            <a href="fiche3.html"><img  class="savon img-responsive" src="images/savon.JPG"/></a>
             </div>
           </div>
        
          <div class="col-md-offset-1 col-md-10"> 
           <div class="col-md-6">
             <div class="hover">
-            <h1>Foulards</h1>
-            <a href="fiche3.html"><img class="Foulards img-responsive" src="images/foulard.JPG"/></a>
+            <h1>Ravier rectangle</h1>
+            <a href="fiche3.html"><img class="rectangle img-responsive" src="images/rectangle.JPG"/></a>
             </div>
           </div>
       
@@ -165,8 +163,8 @@
       
           <div class="col-md-6">
           <div class="hover">
-          <h1>Pareos</h1>
-            <a href="fiche3.html"><img class="Pareos img-responsive" src="images/pareo.JPG"/></a>
+          <h1>Ravier circulaire</h1>
+            <a href="fiche3.html"><img class="circul img-responsive" src="images/rond.jpg"/></a>
             </div>
           </div>
         </div>
@@ -174,21 +172,22 @@
       
           <div class="col-md-6">
           <div class="hover">
-          <h1>Bindis</h1>
-            <a href="fiche3.html"><img class="Bindis img-responsive" src="images/bindis.png"/></a>
+          <h1>Vide Poche</h1>
+            <a href="fiche3.html"><img class="vide img-responsive" src="images/vide.jpg"/></a>
             </div>
           </div>
 
           <div class="col-md-6">
           <div class="hover">
-          <h1>Bijoux</h1>
-            <a href="fiche3.html"><img class="Bijoux img-responsive" src="images/melissa.jpeg"/></a>
+          <h1>Soliflore</h1>
+            <a href="fiche3.html"><img class="soliflore img-responsive" src="images/soliflore.jpg"/></a>
             </div>
-          </div>
+          </div>-->
 
 
 
       </div>
+      </header>
   <!--</div>-->
 
 
@@ -204,26 +203,25 @@
 
 
 	<footer>
-      <div id="contact" class="contact">
-    
+	    <div id="contact" class="contact">
 	        
 	        	  <h2>CONTACT</h2>
 	       
 	       
-			    <div class="iconesContact col-lg-offset-4 col-lg-5">
-            <div class="mail col-lg-offset-3">
-              <i class="fa fa-envelope-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
+			    <div class="iconesContact">
+            <div class="mail">
+            <i class="fa fa-envelope-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
               </div>
 
-              <div class="tel">
-                <i class="fa fa-phone-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
+              <div class="tel" >
+              <i class="fa fa-phone-square fa-3x" aria-hidden="true" onclick="toggle_div(this,'tr');"></i>
                     </div>
                     <a class="facebook" href="www.facebook.com"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
                     <div id="tr" class="texteContact">
-                      <p class="nom" >ANNE LEMEILLEUR</p>
-              <p class="telephone" >+33 6 03 35 67 32</p>
-                      <p class="adresse" >contact@ebullition.fr</p>
-                  </div>
+                    <p class="nom" >ANNE LEMEILLEUR</p>
+            <p class="telephone" >+33 6 03 35 67 32</p>
+                    <p class="adresse" >contact@ebullition.fr</p>
+                </div>
               
             </div> 
     </div>
@@ -241,6 +239,6 @@
 
 
 
-
+<script type="text/javascript" src="JS/script.js"></script>
 </body>
 </html>

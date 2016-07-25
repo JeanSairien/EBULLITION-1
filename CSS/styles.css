@@ -636,7 +636,9 @@ font-size: 16px;
 	padding-left: 150px;
 	padding-right: 50px; 
 }
-
+.ment p {
+	display: block
+}
 .mentTitre{
 	padding-left: 100px;
 	font-size: 40px;

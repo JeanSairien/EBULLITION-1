@@ -148,7 +148,8 @@ button:hover {
 .logoHeader{
 
   padding: 60px 0px 0px;
-
+  background-color: #F5F5F5;
+  border-radius: 10px;
   
 
 }
@@ -184,11 +185,12 @@ div.col-md-6{
 }
 
 
-.kurta,.kimono,.chemisier,.ikat,.veste,.tie{
-	border-radius:30px;
+.porte,.nappe,.savon,.rectangle,.circul,.vide,.soliflore{
+	/*border-radius:30px;*/
 	height:300px;
-	width: 850px;
+	width: 100%;
   clear:both;
+
   
 	
 
@@ -197,12 +199,21 @@ div.col-md-6{
 
 .hover:hover{
   background-color: purple;
-  /*background-image:url("../images/bg-color.jpg");*/
-  opacity: 0.2;
+  opacity: 0.8;
   border-radius: 30px;
-  
+  color: orange;
+
 
 }
+
+
+h1{
+  font-family: 'OpenSans-LightItalic';
+  text-align: center;
+  font-size: 25px;
+  
+}
+
 
 
 
