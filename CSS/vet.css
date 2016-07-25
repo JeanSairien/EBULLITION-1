@@ -286,8 +286,6 @@ div.col-md-6{
 	display: inline-block;
   	color: #993399;
   	padding-bottom: 50px;
-  	padding-left: 565px;
-    margin-left: 50px;
   }
 
   .mail {
@@ -327,4 +325,8 @@ div.col-md-6{
     margin-top: 5px;
     padding-left: 10px;
     padding-top: 4px;
+}
+
+.fleche {
+  padding-top: 15px;
 }

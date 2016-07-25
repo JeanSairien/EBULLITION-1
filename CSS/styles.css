@@ -651,14 +651,11 @@ font-size: 16px;
 
 .fleche img{
 	padding-top: 30px;
-	margin-left: 620px;
 	display: block;
 	padding-bottom: 20px;
 }
 
-.fleche p {
-	padding-left: 590px;
-}
+
 
 .chemin {
 	padding-left: 50px; 
