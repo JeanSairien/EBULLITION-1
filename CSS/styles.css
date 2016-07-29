@@ -124,7 +124,7 @@ li:hover ul {
 
 
 .zoneVetm {
-	background-image: url(../images/kimono.png);
+	background-image: url(../images/clothes.png);
 	background-position: 160px center ;
 }
 
@@ -680,15 +680,26 @@ font-size: 16px;
 	font-size: 40px;
 	padding-bottom: 20px;
 }
+.containerlvd{
+	background-color:rgba(0,0,0,0.1);
+	
+	padding-top: 20px;
+
+
+}
 .partie1{
-    margin-top: 50px;
+    margin-top: 100px;
 	margin-left: 100px;
 	margin-right: 100px;
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	background-color:rgba(0,0,0,0.1);
+	
+	background-color:white
+}
+
+
 }
 .partie2{
     margin-top: 50px;
@@ -698,7 +709,7 @@ font-size: 16px;
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	background-color:rgba(0,0,0,0.1);
+	background-color:white
 }
 .text{
 	color: #78005A;
