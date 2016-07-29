@@ -45,7 +45,8 @@ src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
 body {
 	margin:0;
   padding: 0;
-	
+	background-color: white;
+  background-size: cover;
   
   
 }
@@ -189,20 +190,20 @@ div.col-md-6{
 	border-radius:30px;
 	height:300px;
 	width: 850px;
-  clear:both;
+  
   
 	
 
 }
 
 
-.hover:hover{
-  background-color: purple;
-  /*background-image:url("../images/bg-color.jpg");*/
-  opacity: 0.2;
-  border-radius: 30px;
+.hover :hover{
+  background-color: purple!important;
+/*background: url(../images/downld.png);*/
+  opacity: 0.8;
+  border-radius: 50px;
   
-
+  
 }
 
 
