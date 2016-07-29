@@ -136,6 +136,29 @@ button:hover {
 .dropdown-menu a {
 	display: inline-block!important;
 }
+.zoneDeco, .zoneAcc, .zoneVetm {
+  min-width : 320px;
+  min-height : 160px;
+  padding : 10px;
+  background-color : rgba(255,255,255,0.8) ;
+  background-repeat: no-repeat;
+  background-position: 180px center ;
+}
+
+
+
+.zoneVetm {
+  background-image: url(../images/clothes.png);
+  background-position: 160px center ;
+}
+
+.zoneAcc {
+  background-image: url(../images/colier.png);
+}
+
+.zoneDeco {
+  background-image: url(../images/tapis.png);
+}
 /*///////////HEADER////////////
 ////////////////////////////*/
 
