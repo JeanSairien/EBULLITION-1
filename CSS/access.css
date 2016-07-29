@@ -225,14 +225,11 @@ div.col-md-3{
 }
 
 
-.hover  :hover{
+.hover:hover{
   /*background-image:url("../images/bg-color.jpg");*/
-  background-color: purple!important;
-
   opacity: 0.8;
-  border-radius: 50px;
-  
-  color: white;
+  border-radius: 30px;
+  color: orange;
 
 }
 

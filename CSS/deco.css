@@ -218,11 +218,11 @@ div.col-md-6{
 }
 
 
-.hover :hover{
-  background-color: purple!important;
+.hover:hover{
+  background-color: purple;
   opacity: 0.8;
   border-radius: 30px;
-  color: purple;
+  color: orange;
 
 
 }
