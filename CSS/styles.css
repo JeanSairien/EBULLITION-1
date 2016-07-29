@@ -682,36 +682,34 @@ font-size: 16px;
 	font-size: 40px;
 	padding-bottom: 20px;
 }
-.containerlvd{
-	background-color:rgba(0,0,0,0.1);
+
+.text{
+	color: #78005A;
+}
+
+div.container-fluid{
 	
-	padding-top: 20px;
+	width: 1280px;
 
 
 }
-.partie1{
-    margin-top: 100px;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	
-	background-color:white
-}
+
+
+div.col-lg-12{
+	padding:0;
+	margin: 0;
+	background-color: whitesmoke;
 
 
 }
-.partie2{
-    margin-top: 50px;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	background-color:white
+
+
+div.col-md-8{
+	background-color: white;
+	margin-bottom: 50px;
+	margin-top: 50px;
+
+
 }
 .text{
 	color: #78005A;
@@ -723,6 +721,7 @@ font-size: 16px;
 
 .Mentions p {
 	padding-left: 15px;
+
 }
 
 .contactTitre {
