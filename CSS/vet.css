@@ -331,3 +331,7 @@ div.col-md-6{
 .fleche {
   padding-top: 15px;
 }
+
+#title i {
+  color: #993399!important;
+}

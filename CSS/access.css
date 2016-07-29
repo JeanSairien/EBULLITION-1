@@ -147,10 +147,7 @@ button:hover {
 }
 
 .logoHeader{
-
   padding: 60px 0px 0px;
-  
-
 }
 
 .logoHeader img{
@@ -332,4 +329,8 @@ h1{
     margin-top: 5px;
     padding-left: 10px;
     padding-top: 4px;
+}
+
+#title i {
+  color: #993399!important;
 }
