@@ -61,8 +61,8 @@
 
 .catalogue {
 	height: 150px;
-	background-color: #78005A;
-	margin-top: 150px;
+	background-color: #78005A!important;
+	margin-top: 150px!important;
 	color: white;
 }
 
